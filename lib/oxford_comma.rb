@@ -3,6 +3,6 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.size > 2
     finalword = array.pop
-    array.join(", ") + " and #{finalword}"
+    array.join(", ") + ", and #{finalword}"
   end
 end
